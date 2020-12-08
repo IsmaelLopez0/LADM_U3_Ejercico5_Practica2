@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "375095359959",
+    "firebase_url": "https://ladmu3-2746b.firebaseio.com",
+    "project_id": "ladmu3-2746b",
+    "storage_bucket": "ladmu3-2746b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375095359959:android:23530e71b1e28d4a60f392",
+        "android_client_info": {
+          "package_name": "com.example.ladm_u3_ejercicio3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375095359959-dlhrju1kmjkginp5on2mib6ddqtdbd3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM0D4O1nJRbI9JLfYlkQ9EfTGsiRccQfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375095359959-dlhrju1kmjkginp5on2mib6ddqtdbd3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375095359959:android:118df52437bfecb160f392",
+        "android_client_info": {
+          "package_name": "com.example.ladm_u3_ejercicio4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375095359959-dlhrju1kmjkginp5on2mib6ddqtdbd3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM0D4O1nJRbI9JLfYlkQ9EfTGsiRccQfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375095359959-dlhrju1kmjkginp5on2mib6ddqtdbd3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375095359959:android:3936d51725f324c960f392",
+        "android_client_info": {
+          "package_name": "com.example.ladm_u3_ejercico5_practica2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375095359959-dlhrju1kmjkginp5on2mib6ddqtdbd3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM0D4O1nJRbI9JLfYlkQ9EfTGsiRccQfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375095359959-dlhrju1kmjkginp5on2mib6ddqtdbd3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
