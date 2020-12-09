@@ -38,18 +38,49 @@
         android:hint="Descripción"
         android:layout_marginBottom="10dp"/>
 
-    <Button
-        android:id="@+id/btnRegistrar"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Registrar" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/btnSincronizar"
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registrar"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnSincronizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sincronizar"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sincronizar"
-        android:layout_marginBottom="10dp"/>
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Consultar"
+            android:layout_marginRight="5dp"/>
+
+        <!--Button
+            android:id="@+id/btnEliminarVarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eliminar varios"
+            android:layout_marginLeft="5dp"/-->
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/datosLocales"

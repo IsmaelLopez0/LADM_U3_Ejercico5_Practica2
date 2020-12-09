@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LADM_U3_Ejercico5_Practica2</string>
+    <string-array name="tiposConsultas">
+        <item>Descripción</item>
+        <item>Lugar</item>
+        <item>Fecha</item>
+        <item>Rango de fechas</item>
+    </string-array>
 </resources>

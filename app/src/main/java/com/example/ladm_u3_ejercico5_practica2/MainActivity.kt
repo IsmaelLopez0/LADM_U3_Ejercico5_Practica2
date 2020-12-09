@@ -51,6 +51,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        btnConsulta.setOnClickListener {
+
+        }
+
         baseRemota.collection("agenda")
                 .addSnapshotListener { value, error ->
                     if (error != null ){
@@ -93,6 +97,11 @@ class MainActivity : AppCompatActivity() {
             var minute = cal.get(Calendar.MINUTE)
             val timePickerDialog = TimePickerDialog(this, timeSetListener, hour, minute, true)
             timePickerDialog.show()
+        }
+
+        btnConsulta.setOnClickListener {
+            var intent = Intent(this, MainActivity3::class.java)
+            startActivity(intent)
         }
     }
 
@@ -287,7 +296,7 @@ class MainActivity : AppCompatActivity() {
         try {
             var trans = baseDatos.writableDatabase
             var res = trans.delete("agenda", "id=?", arrayOf(idEliminar))
-            if (res == 0){ mensaje("ERROR! No se pudo eliminar") }
+            if (res == -1){ mensaje("ERROR! No se pudo eliminar") }
             else {
                 var res2 = trans.delete("sincronizar", "idagenda=?", arrayOf(idEliminar))
                 mensaje("Se eliminó con exito")
